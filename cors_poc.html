@@ -1,0 +1,12 @@
+<html>
+<body>
+<script>
+fetch("https://securecode-api-nonprod.nykaa.com/server/info", {
+  credentials: "include"
+})
+.then(r => r.json())
+.then(d => document.body.innerText = JSON.stringify(d))
+.catch(e => document.body.innerText = "Error: " + e);
+</script>
+</body>
+</html>
