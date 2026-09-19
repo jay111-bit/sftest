@@ -1,1 +1,1 @@
-sftest
+reports.moonpay.com
